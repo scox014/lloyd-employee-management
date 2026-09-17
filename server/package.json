@@ -1,0 +1,23 @@
+{
+  "name": "lloyd-employee-management-server",
+  "version": "1.0.0",
+  "description": "Backend API for Lloyd Employee Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "msnodesqlv8": "^5.5.0",
+    "mssql": "^12.7.2",
+    "odbc": "^2.5.0"
+  },
+  "allowScripts": {
+    "odbc@2.5.0": true,
+    "msnodesqlv8@5.5.0": true
+  }
+}
